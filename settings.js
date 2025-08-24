@@ -1,16 +1,16 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.sessionID = process.env.SESSIONID || ""
-global.mongodburi = process.env.MONGODB_URI || ""
+global.sessionID = process.env.SESSIONID || "KAVI-X-SESSION-ID~ytQ0BICQ#eiVQJ5yspsnm3SgWfQmJdRxVdnU3vDHdtqqNM7hGTmc"
+global.mongodburi = process.env.MONGODB_URI || "mongodb+srv://denit778:OsjM0zHvEh1B5YnL@cluster0.35igjbn.mongodb.net/"
 global.botname = process.env.BOTNAME || "KAVI-X MD"
-global.ownernumber = process.env.OWNERNUMBER || "94766577249"
+global.ownernumber = process.env.OWNERNUMBER || "94766854478"
 global.ownername = process.env.OWNERNAME || "Cyber Kavi"
 global.packname = process.env.PACKNAME || "KAVI-X MD"
 global.author = process.env.AUTHOR || "Cyber Kavi"
 
 global.creator = process.env.CREATOR || "94702128378@s.whatsapp.net"
-global.botprefix = process.env.BOTPREFIX || "."
+global.botprefix = process.env.BOTPREFIX || ","
 global.restart = process.env.RESTART || true
 global.websitex = process.env.WEBSITEX || "https://kavi-x-bot-login.up.railway.app/"
 global.wagc = process.env.WAGC || "https://chat.whatsapp.com/CG9f0paHJzwDImXiydfuht"
